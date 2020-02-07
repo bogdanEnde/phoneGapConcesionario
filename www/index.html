@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'" />
+    <meta name="msapplication-tap-highlight" content="no">
+    <link href="css/jquery.mobile-1.4.5.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.mobile.external-png-1.4.5.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.mobile.icons-1.4.5.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.mobile.inline-png-1.4.5.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.mobile.inline-svg-1.4.5.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.mobile.structure-1.4.5.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.mobile.theme-1.4.5.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+    <div data-role="page" id="main">
+        <div data-role="header" id="banner-main">
+            <h1>Inicio</h1>
+        </div>
+        <div data-role="container">
+            <div data-role="header">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#main">Inicio</a></li>
+                        <li><a href="#Turismos">Turismos</a></li>
+                        <li><a href="#electricos">electricos</a></li>
+                        <li><a href="#furgonetas">Furgonetas</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <h3 class="ui-bar ui-bar-a">Lo mas nuevo</h3>
+              <div class="ui-body">
+            <div data-role="collapsible">
+                    <h4>Opel Astra</h4>
+                <img src="img/Opel-Astra.png" alt="">
+                 <p>
+                    El Opel Astra era uno de los modelos más veteranos del segmento C y, desde hacía tiempo, se
+                    especulaba con un lavado de cara que le permitiera seguir compitiendo con sus rivales. Este momento
+                    ha llegado y Opel ha presentado su nuevo compacto que, sin ser una nueva generación, sí incluye
+                    importantes cambios a nivel de equipamiento y, especialmente, en la gama de motores, apostando
+                    notablemente por la eficiencia. Descubre todas las novedades del nuevo Opel Astra 2020.
+                </p>
+                <a href="#Turismos" data-transition="flip" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">
+                    <input type="button" value="Ver modelos">
+                </a>
+            </div>
+            <div data-role="collapsible">
+                    <h4>Peugeot Rifter</h4>
+                <img src="img/Peugeot-Rifter-2018.jpg" alt="">
+                 <p>
+                    El Peugeot Rifter es un modelo completamente nuevo que llega para sustituir al mítico Peugeot
+                    Partner. Está basado en la plataforma EMP2 del Grupo PSA y se trata de un vehículo de fabricación
+                    nacional, ya que se produce en la fábrica de Citroën de Vigo. Su diseño, al menos en el frontal, es
+                    muy parecido al de los últimos lanzamientos de Peugeot. No obstante, incluye unas protecciones
+                    plásticas en los bajos que le confieren una imagen más aventurera que la de sus rivales. Además, su
+                    habitáculo incluye el diseño i-Cockpit de Peugeot, con un volante muy pequeño y en una posición muy
+                    baja. Tiene un enfoque de monovolumen y puede albergar a cinco o a siete pasajeros, y su maletero
+                    cubica 597 litros. ¿Sus motores? Diésel y gasolina de entre 75 CV y 131 CV, y puede equipar un
+                    cambio manual o automático.
+                </p>
+                <a href="#furgonetas" data-transition="flip" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">
+                    <input type="button" value="Ver modelos">
+                </a>
+            </div>
+            <div data-role="collapsible">
+                    <h4>BMW i3</h4>
+                <img src="img/BMW-i3.jpg" alt="">
+                 <p>
+                    El BMW i3 la primera apuesta de la marca alemana en el mercado de los coches eléctricos. Vio la luz
+                    en 2013 y fue actualizado en 2018, con algunas mejores estéticas, en equipamiento y en la gama de
+                    motores. En primer lugar, encontramos un motor de 170 caballos apoyado en una batería de 21,6 kWh,
+                    que le permite recorrer unos 200 kilómetros, según el protocolo WLTP. Por otro lado, está disponible
+                    una versión más potente, BMW i3s, con la misma autonomía, pero con 184 caballos de potencia.
+                    Opcionalmente, ambas versiones se pueden combinar con un motor bicilíndrico que aporta unos 130
+                    kilómetros extra.
+                </p>
+                <a href="#electricos" data-transition="flip" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">
+                    <input type="button" value="Ver modelos">
+                </a>
+            </div>
+            <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                <h2>Buscar modelo</h2>
+                    <ul data-role="listview" data-filter="true">
+                            <li><a>Audi</a></li>
+                            <li><a>BMW</a></li>
+                            <li><a>Cadillac</a></li>
+                            <li><a>Chrysler</a></li>
+                            <li><a>Dodge</a></li>
+                            <li><a>Ferrari</a></li>
+                            <li><a>Ford</a></li>
+                            <li><a>GMC</a></li>
+                            <li><a>Honda</a></li>
+                        </ul>
+            </div>
+        </div>
+
+    </div>
+    <!--fin pagina main-->
+    <!-- pagina Turismos-->
+    <div data-role="page" id="Turismos">
+        <div data-role="header" data-position="fixed" data-add-back-btn="true" id="p">
+
+            <h1>Turismos</h1>
+        </div>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#main">Inicio</a></li>
+                <li><a href="#Turismos">Turismos</a></li>
+                <li><a href="#electricos">electricos</a></li>
+                <li><a href="#furgonetas">Furgonetas</a></li>
+            </ul>
+        </div>
+        <div data-role="panel" id="myAstra">
+            <h2>Opel Astra</h2>
+            <p>Precio: 3.935.029 pesetas.</p>
+            <p>Número de cilindros: 3</p>
+            <p>Puertas: 5</p>
+            <p>Dimensiones: 4.370-4.702 mm L x 1.809 mm A x 1.485-1.510 mm A</p>
+            <p>
+                Motor: 1,2 L 3 motor en línea, 1,3 L 3 motor en línea, 1,5 L 3 motor en línea diésel
+                Transmisión: manual de 6 velocidades, automática de 9 velocidades, CVT
+            </p>
+        </div>
+
+        <div data-role="content" id="content">
+            <div data-role="main" class="ui-content">
+                <img src="img/Opel-Astra.png" alt="">
+                <p>
+                    El Opel Astra era uno de los modelos más veteranos del segmento C y, desde hacía tiempo, se
+                    especulaba con un lavado de cara que le permitiera seguir compitiendo con sus rivales. Este momento
+                    ha llegado y Opel ha presentado su nuevo compacto que, sin ser una nueva generación, sí incluye
+                    importantes cambios a nivel de equipamiento y, especialmente, en la gama de motores, apostando
+                    notablemente por la eficiencia. Descubre todas las novedades del nuevo Opel Astra 2020.
+                </p>
+                <a href="tryit.asp-filename=tryjqmob_panels_basic.html#myAstra"
+                    class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Detalles </a>
+            </div>
+
+        </div>
+    </div>
+    <!-- pagina motocivletas-->
+    <div data-role="page" id="electricos">
+        <div data-role="header" data-position="fixed" data-add-back-btn="true" id="p">
+
+            <h1>Electricos</h1>
+        </div>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#main">Inicio</a></li>
+                <li><a href="#Turismos">Turismos</a></li>
+                <li><a href="#electricos">electricos</a></li>
+                <li><a href="#furgonetas">Furgonetas</a></li>
+            </ul>
+        </div>
+        <div data-role="panel" id="myAstra">
+            <h2>BMW-i3</h2>
+            <p>Precio: 3.935.029 pesetas.</p>
+            <p>Número de enchufes: 1</p>
+            <p>Puertas: 5</p>
+            <p>Dimensiones: 4.370-4.702 mm L x 1.809 mm A x 1.485-1.510 mm A</p>
+            <p>
+                Motor: pilas alcalinas AAA+
+            </p>
+        </div>
+
+        <div data-role="content" id="content">
+            <div data-role="main" class="ui-content">
+                <img src="img/BMW-i3.jpg" alt="">
+                <p>
+                    El BMW i3 la primera apuesta de la marca alemana en el mercado de los coches eléctricos. Vio la luz
+                    en 2013 y fue actualizado en 2018, con algunas mejores estéticas, en equipamiento y en la gama de
+                    motores. En primer lugar, encontramos un motor de 170 caballos apoyado en una batería de 21,6 kWh,
+                    que le permite recorrer unos 200 kilómetros, según el protocolo WLTP. Por otro lado, está disponible
+                    una versión más potente, BMW i3s, con la misma autonomía, pero con 184 caballos de potencia.
+                    Opcionalmente, ambas versiones se pueden combinar con un motor bicilíndrico que aporta unos 130
+                    kilómetros extra.
+                </p>
+                <a href="tryit.asp-filename=tryjqmob_panels_basic.html#myAstra"
+                    class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Detalles </a>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- pagina Furgonetas-->
+    <div data-role="page" id="furgonetas">
+        <div data-role="header" data-position="fixed" data-add-back-btn="true" id="p">
+            <h1>furgonetas</h1>
+        </div>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#main">Inicio</a></li>
+                <li><a href="#Turismos">Turismos</a></li>
+                <li><a href="#motocicletas">Motocicletas</a></li>
+                <li><a href="#furgonetas">Furgonetas</a></li>
+            </ul>
+        </div>
+        <div data-role="panel" id="myAstra">
+            <h2>Opel Astra</h2>
+            <p>Precio: 3.935.029 pesetas.</p>
+            <p>Número de cilindros: 3</p>
+            <p>Puertas: 5</p>
+            <p>Dimensiones: 4.370-4.702 mm L x 1.809 mm A x 1.485-1.510 mm A</p>
+            <p>
+                Motor: 1,2 L 3 motor en línea, 1,3 L 3 motor en línea, 1,5 L 3 motor en línea diésel
+                Transmisión: manual de 6 velocidades, automática de 9 velocidades, CVT
+            </p>
+        </div>
+
+        <div data-role="content" id="content">
+            <div data-role="main" class="ui-content">
+                <img src="img/Peugeot-Rifter-2018.jpg" alt="">
+                <p>
+                    El Peugeot Rifter es un modelo completamente nuevo que llega para sustituir al mítico Peugeot
+                    Partner. Está basado en la plataforma EMP2 del Grupo PSA y se trata de un vehículo de fabricación
+                    nacional, ya que se produce en la fábrica de Citroën de Vigo. Su diseño, al menos en el frontal, es
+                    muy parecido al de los últimos lanzamientos de Peugeot. No obstante, incluye unas protecciones
+                    plásticas en los bajos que le confieren una imagen más aventurera que la de sus rivales. Además, su
+                    habitáculo incluye el diseño i-Cockpit de Peugeot, con un volante muy pequeño y en una posición muy
+                    baja. Tiene un enfoque de monovolumen y puede albergar a cinco o a siete pasajeros, y su maletero
+                    cubica 597 litros. ¿Sus motores? Diésel y gasolina de entre 75 CV y 131 CV, y puede equipar un
+                    cambio manual o automático.
+                </p>
+                <a href="tryit.asp-filename=tryjqmob_panels_basic.html#myAstra"
+                    class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Detalles </a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

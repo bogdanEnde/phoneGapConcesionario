@@ -1,0 +1,18 @@
+
+#main #fondo > a > img  {height: 200px;}
+#mian h2{
+    background-color: white;
+}
+img{
+    width:100%;
+}
+.imgFinal{
+    background: url(../img/final.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#navbar li{
+    width: -10px;
+}
